@@ -4,8 +4,8 @@ export const projects = [
     description: "Using Angular, I created this website that shows all the game availble on the internet and shows you on what platform you can download the game.",
       image: '/images/1.png',
       tags: ['Angular','Typescript'],
-    source: 'https://github.com/Naaaggi/NaGames',
-    visit: 'https://nagames.netlify.app',
+    source: 'https://nagames.netlify.app',
+    visit: 'https://github.com/Naaaggi/NaGames',
     id: 0,
   },
   {
@@ -13,8 +13,8 @@ export const projects = [
     description:"A small project I built during my web development course at HTW Berlin that taught me the basics of HTML,CSS and Vanilla JavaScript. I also learned how to fetch data using JavaScript from a JSON File that has the role of a database.",
     image: '/images/2.png',
     tags: ['HTML', 'CSS' , 'JavaScript'],
-    source: 'https://github.com/Naaaggi/SchoolManagingSystem',
-    visit: 'https://nagschoolmanagingsystem.netlify.app',
+    source: 'https://nagschoolmanagingsystem.netlify.app',
+    visit: 'https://github.com/Naaaggi/SchoolManagingSystem',
     id: 1,
   },
   {
