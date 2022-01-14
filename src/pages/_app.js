@@ -1,12 +1,19 @@
-import Theme from '../styles/theme';
+import Head from "next/head";
+import Navigation from "../components/Navigation";
+import "../styles/globals.css";
 
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return (
-    <>
-      <Theme>
-        <Component {...pageProps} />
-      </Theme>
-    </>
+    <div>
+      <Head>
+      <title>Neji Ghazouani - Full Stack Developer</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Neji Ghazouani - Full Stack Developer" />
+      </Head>
+      <Navigation />
+      <Component {...pageProps} />
+    </div>
   );
 }
- 
+
+export default MyApp;
