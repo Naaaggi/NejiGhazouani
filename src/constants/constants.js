@@ -18,7 +18,7 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'HchaTW',
+    title: 'cHaTW',
     description: "With Direct and Group Chats, emojis & Reactions, Built-in Gif support, the ability to edit & delete messages, specialized commands, and much more,  this fully responsive Realtime Chat Messaging App will be my final project of my web devlopment course at HTW Berlin. And only students or professors of my university can use it. But if you are intersted I can give a demo account to try it out yourself 😉. It's going to be LEGEN...Wait for it........",
       image: '/images/3.jpg',
       tags: ['React', 'Express','Node', 'Stream'],
