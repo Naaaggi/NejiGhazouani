@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useState} from 'react';
 import CountUp, { startAnimation } from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
@@ -13,9 +13,12 @@ const data = [
   { number: 150, text: 'LinkedIn Contacts', }
 ];
 
-const Acomplishments = () => (
 
-<Section>
+export default function Acomplishments() {
+  const [state, setState] = useState(true);
+
+  return (
+    <Section>
 
   <SectionTitle>Personal Accomplishments</SectionTitle>
   <Boxes>
@@ -24,13 +27,16 @@ const Acomplishments = () => (
       <Box key={index}>
         <BoxNum>  
   <>
-        <CountUp redraw={true}  start={0} duration={1.75} end={card.number}>
-        {({ countUpRef, start }) => (
-            <VisibilitySensor onChange={start} delayedCall>
-                <span ref={countUpRef} />
-            </VisibilitySensor>
-        )}
-        </CountUp>
+
+  <CountUp end={card.number} duration={1.75} onEnd= {() => {
+  setState(false);
+  }} >
+    {({ countUpRef, start }) => (
+        <VisibilitySensor active={state} onChange={start} delayedCall>
+            <span ref={countUpRef} />
+        </VisibilitySensor>
+    )}
+</CountUp>
   </>+</BoxNum>
         <BoxText>{card.text}</BoxText>
       </Box>
@@ -38,7 +44,5 @@ const Acomplishments = () => (
   </Boxes>
 
 </Section>
-
-);
-
-export default Acomplishments;
+  )
+}
