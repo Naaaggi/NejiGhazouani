@@ -16,7 +16,7 @@ const data = [
 
 export default function Acomplishments() {
   const [state, setState] = useState(true);
-
+  let counter=0;
   return (
     <Section>
 
@@ -28,9 +28,10 @@ export default function Acomplishments() {
         <BoxNum>  
   <>
 
-  <CountUp end={card.number} duration={1.75} onEnd= {() => {
+  <CountUp end={card.number} duration={1.75} onEnd= {() => { if (counter===1){
   setState(false);
-  }} >
+  counter++
+  }}} >
     {({ countUpRef, start }) => (
         <VisibilitySensor active={state} onChange={start} delayedCall>
             <span ref={countUpRef} />
