@@ -5,6 +5,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
+
 const data = [
   { number: 15, text: 'Accomplished Courses'},
   { number: 5, text: 'Projects in the WebDev', },
@@ -13,7 +14,9 @@ const data = [
 ];
 
 const Acomplishments = () => (
+
 <Section>
+
   <SectionTitle>Personal Accomplishments</SectionTitle>
   <Boxes>
     {data.map((card,index)=>(
