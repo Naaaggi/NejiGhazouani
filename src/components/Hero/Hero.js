@@ -9,7 +9,7 @@ const Hero = (props) => (
 <Section row nopadding>
   <LeftSection>
     <SectionTitle main center >
-    <div style={{fontSize: 55 }}><div><p>Hey, I am</p></div>
+    <div style={{fontSize: "55" , lineHeight: "1.2"}}><div><p>Hey, I am</p></div>
    <Typewriter
   options={{
     strings: ['Neji Ghazouani', 'a Web Developer','into Data Science'],
