@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect'
 const Hero = (props) => (
 <Section row nopadding>
   <LeftSection>
-    <SectionTitle main center >
+    <SectionTitle main center style={{paddingRight: "300px"}}>
     <div style={{fontSize: "55" , lineHeight: "1.2"}}><div><p>Hey, I am</p></div>
    <Typewriter
   options={{
@@ -20,8 +20,8 @@ const Hero = (props) => (
 </div>
     </SectionTitle>
     <SectionText>
-    I am an Applied Computer Science Student<br/>
-    at HTW Berlin
+    I am an Applied Computer Science<br/>
+    Student at HTW Berlin
     </SectionText>
     <Button onClick={() => window.open('https://www.linkedin.com/in/m-neji-ghazouani/', '_blank')}>Learn More
     </Button>
