@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Nagi Games',
-    description: "Using Angular, I created this website that shows all the game availble on the internet and shows you on what platform you can download the game.",
+    description: "Using Angular, I created this website that shows all the games availble on the internet and on what platform you can download it.",
       image: '/images/1.png',
       tags: ['Angular','Typescript'],
     source: 'https://nagames.netlify.app',
