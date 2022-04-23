@@ -10,10 +10,10 @@ import {
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
-  { number: 15, text: "Accomplished Courses" },
-  { number: 5, text: "Projects in the WebDev" },
-  { number: 12, text: "Github Followers" },
-  { number: 150, text: "LinkedIn Contacts" },
+  { number: 20, text: "Accomplished Courses" },
+  { number: 10, text: "Projects in the WebDev" },
+  { number: 20, text: "Github Followers" },
+  { number: 400, text: "LinkedIn Contacts" },
 ];
 
 export default function Acomplishments() {

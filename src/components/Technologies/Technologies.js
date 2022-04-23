@@ -21,7 +21,7 @@ const Technologies = () =>  (
             <ListTitle>Front-End</ListTitle>
             <ListParagraph>
               Experience with <br/>
-              React.js
+              ReactJS, MaterialUI and GraphQL...
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () =>  (
             <ListTitle>Back-End</ListTitle>
             <ListParagraph>
               Experience with <br/>
-              Node.js and Databases
+              Node.js , Databases and GraphQL...
             </ListParagraph>
           </ListContainer>
         </ListItem>
@@ -41,7 +41,7 @@ const Technologies = () =>  (
             <ListTitle>Data Visualization</ListTitle>
             <ListParagraph>
               Experience with <br/>
-              Matlab
+              Matlab, Python (Numpy, Pandas ..)...
             </ListParagraph>
           </ListContainer>
         </ListItem>
