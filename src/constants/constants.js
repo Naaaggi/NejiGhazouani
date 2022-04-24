@@ -34,6 +34,6 @@ export const TimeLineData = [
   { year: 2020, text: 'Learned German and got the TELC C1 HOCHSCHULE - German Language for Foreigners - C1 Niveau', },
   { year: 2021, text: 'Became a Student of Applied Computer Science at HTW Berlin (Current Grade: 1.8 [German])', },
   { year: 2021, text: 'Started creating Websites while learning HTML5, CSS, JS, REACT.. ', },
-  { year: 2022, text: 'Started working as a Software Developer (Working Student) at 𝘁𝗵 𝗱𝗮𝘁𝗮 𝗚𝗺𝗯𝗛  using React, MaterialUI, GraphQL..', },
+  { year: 2022, text: 'Started working as a Software Developer (Working Student) at 𝘁𝗵 𝗱𝗮𝘁𝗮 𝗚𝗺𝗯𝗛 using React, MaterialUI, GraphQL..', },
 
 ];
